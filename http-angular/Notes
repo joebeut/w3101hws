@@ -1,0 +1,12 @@
+Notes
+
+
+
+In app.module.js
+
+angular 
+	.module('app')
+	.controller('MyCtrl', function ($scope, $stateParams) {
+		// asmozleiu
+	})
+	.factory('MyFactory', )

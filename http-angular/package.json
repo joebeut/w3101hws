@@ -1,0 +1,21 @@
+{
+  "name": "http-angular",
+  "version": "1.0.0",
+  "description": "Angular Http Server app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Angular"
+  ],
+  "author": "Joe Beutler",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.11.0",
+    "cors": "^2.5.3",
+    "express": "^4.11.2",
+    "mongoose": "^3.8.23"
+  }
+}
