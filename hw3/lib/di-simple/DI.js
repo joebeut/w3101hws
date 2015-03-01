@@ -17,8 +17,8 @@
     return fn.apply(null, args);
   };
 
-  function register (func) {
-
+  function register (name, value) {
+    DI[name] = value;
   };
 
   module.exports = {
